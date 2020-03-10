@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+    padding: 0px;
+}
+html, body { overflow-x: hidden; }
+
+.myheader{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+   
+}
+header{
+    background: url("C:/Users/jagie/OneDrive/Desktop/IWD_GDG/pics/header_back.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    max-width: auto;
+}
+/* header div{
+  display: block;
+  width:180px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+} */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .myImageGrid{
+    width: auto;
+    height: 350px;
+  }
+.mysponsor{
+    
+    width: auto;
+    height: 400px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    position: absolute;
+    top: 120%;
+    transform: translateY(-0%);
+
+  }
+  .carousel-control-next{
+    right: -2rem;
+  }
+  .carousel-control-prev{
+    left: -2rem;
+  }
+
+  hr {
+    background-color: inherit;
+    margin-bottom: 60px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-inner > .item > img {
+    width:640px;
+    height:400px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+div#Program{
+  background-color: rgb(66, 133, 244);
+}
+div#Location{
+  background-color: rgb(70, 90, 101);
+}
+.table{
+  margin-bottom: 0rem;
+}
+.mylocation{
+  margin-top: 260px;
+  background-color: rgb(70, 90, 101);
+}
+div#myFooter{
+  background-color: rgb(65, 64, 66);
+}
